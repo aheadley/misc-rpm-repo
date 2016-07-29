@@ -1,17 +1,17 @@
 [aheadley]
 name=Extra packages for Fedora - $basearch
-baseurl=https://s3-us-east-1.amazonaws.com/aheadley-repo/rpm/$basearch/
+baseurl=http://aheadley-repo.s3-website-us-east-1.amazonaws.com/rpm/$basearch/
 enabled=1
 gpgcheck=0
 
 [aheadley-noarch]
 name=Extra packages for Fedora - noarch
-baseurl=https://s3-us-east-1.amazonaws.com/aheadley-repo/rpm/noarch/
+baseurl=http://aheadley-repo.s3-website-us-east-1.amazonaws.com/rpm/noarch/
 enabled=1
 gpgcheck=0
 
 [aheadley-source]
 name=Extra packages for Fedora - source
-baseurl=https://s3-us-east-1.amazonaws.com/aheadley-repo/rpm/source/
+baseurl=http://aheadley-repo.s3-website-us-east-1.amazonaws.com/rpm/source/
 enabled=0
 gpgcheck=0
