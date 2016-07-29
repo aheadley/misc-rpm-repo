@@ -5,6 +5,8 @@ for repo_dir in rpm/{i686,x86_64,noarch,source}/; do
         "$repo_dir"
 done
 
+markdown README.md > index.html
+
 aws s3 sync \
     --exclude '.git*' \
     --exclude '.git/*' \
